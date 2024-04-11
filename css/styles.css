@@ -1,0 +1,149 @@
+aasd{
+    border:3px solid hotpink;
+}
+
+#apiimage{
+    height:250px;
+    width: 300px;
+}
+
+#cat{
+    width:200px;
+    height: 200px;
+    position: absolute;
+    top:250px;
+    left:25%;
+}
+
+body{
+    background-color: gray;
+}
+
+#eventtext-container{
+    border: 2px blue solid;
+    width: 30vw;
+    padding:10px;
+    margin-left: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cyan;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#locationname{
+    
+    font-size: 3em;
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+#map{
+    margin-right:35px;
+    width: 40vw;
+    height: 40vh;
+    font-size:1em;
+}
+
+#map td{
+    width: 2em;
+    height: 2em;
+    padding: 1.2em;
+    background-color: gray;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#movement{
+    border:2px solid black;
+    background-color: lightgray;
+    margin: 5px;  
+    width: 25%;
+    height:10vh;
+    justify-content: space-around;
+    padding:10px;
+}
+#movementandmap-container{
+    display: flex;
+    justify-content: space-between;
+}
+#movement input{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: gray;
+    border-radius: 8px;
+    border:1px solid black;
+    width: 5vw;
+    height:5vh;
+}
+
+#movement input:hover{
+    background-color: rgba(2, 2, 2, 0.8);
+    
+}
+
+.playerview{
+    border:2px solid black;
+    width: 50vw;
+    height:50vh;
+    background-color: aliceblue;
+    
+}
+
+.playerview img{
+    
+    position: absolute;
+    top: 85px;
+    width: 50vw;
+    height: 50vh;
+}
+
+#playerstats{
+    border: 2px solid black;
+    width: 40%;
+    background-color: cyan;
+    
+}
+
+#playerstats h2{
+    text-align: start;
+}
+
+#playerstatsandwiew-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+#screen{
+    padding:15px;
+    border:2px solid black;
+    height: 95vh;
+    background-color: blue;
+
+}
+
+#statustext{
+    border:2px solid red;
+    height:5vh;
+    width:50vw;
+    margin-left:30px;
+    font-size:1.4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+#textrace{
+    text-align: start;
+}
+
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

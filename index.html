@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombies and Cats</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Zombies & Cats 3D</h2>
+    <main id="screen">
+        
+       
+        <div id="playerstatsandwiew-container">
+            <div class="playerview">  
+                <h3 id="locationname">Grusväg</h3>              
+                <img id="scene" src="images/gravelroad.jpg" alt="">
+                <img id="cat" src="">
+                
+            </div>
+            <div id="playerstats">
+                <h1>Saved Cats: <span id="savedcats">0x</span> </h1>
+                <h2>Bat equipped: <span id="equippedbat">No</span></h2>
+                <h2>Type of Cat: <span id="catrace">-</span></h2>
+                <h2>Origin: <span id="catorigin">-</span></h2>
+                <img id="apiimage" src="invisible.png" alt="">
+                
+            </div>
+            
+        </div> 
+        
+        <div id="movementandmap-container">
+
+            <div id="eventtext-container">
+                <div id="scenedescription"><span id="events">Something</span></div>
+                <div ></div>
+            </div>
+
+            <table id="movement">
+                <tr>
+                    <td></td>
+                    <td><input id="northbutton" onclick="MovePlayer(0, -1)" type="button" value="North"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input id="westbutton" onclick="MovePlayer(-1, 0)" type="button" value="West"></td>
+                    <td></td>
+                    <td><input id="eastbutton" onclick="MovePlayer(1, 0)" type="button" value="East"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input id="southbutton" onclick="MovePlayer(0, 1)" type="button" value="South"><td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <div id="map"></div>
+        </div>
+        
+
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
